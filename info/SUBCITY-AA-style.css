@@ -1,0 +1,151 @@
+*
+{
+     margin: 0;
+     padding: 0;
+}
+
+#particles-js{
+    background-color:gray;
+    height: 100vh;
+}
+body 
+{
+    font-family: 'poppins', sans-serif;
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: rgb(119, 119, 119);
+}
+.body{
+    background: url(1.jpg)
+}
+ h1 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-color:rgb(150, 150, 150);
+position: absolute;
+    top:150px;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+color: white;
+font-size: 50px;
+}
+h2 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: white;
+background-color: rgb(49, 49, 49);
+position: absolute;
+    top:70px;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 30px;
+    
+}
+.menu{
+    position:absolute;
+    top: 50px;
+    left: 1100px;
+    float: right;
+    line-height: 50px;
+    margin: 0 6em;
+
+
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li {
+    display: inline block;
+}
+.menu ul li a{
+     text-decoration: none;
+     color: rgb(253, 253, 253);
+     font-size: 20px;
+     font-weight: lighter;
+     text-decoration-style: solid;
+     padding: 0 20px;
+     background-color: rgb(177, 177, 177);
+
+}
+p{
+    background-color:
+     rgb(184, 184, 165);
+     position: absolute;
+    top:10px;
+}
+.svgClass {
+background-color:gray opacity 50%;
+color:#fff;
+padding:10px;
+width: 700px;
+box-sizing:border-box;
+position: absolute;
+    top:600px;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 50%;
+
+}
+polygon{
+fill:rgb(153, 134, 134); transition: 1s fill;
+}
+polygon:hover {
+fill:rgb(94, 104, 79);
+}
+.lideta { stroke:rgb(0, 0, 0);stroke-width: 1px;stroke-dasharray: 1; fill:gainsboro;
+fill-opacity: 50%;}
+.kirkos{stroke:rgb(0, 0, 0);stroke-width: 1px;stroke-dasharray: 1; fill:gainsboro;
+fill-opacity: 10%;}
+.nifas-silk{stroke:rgb(0, 0, 0);stroke-width: 1px;stroke-dasharray: 1; fill:gainsboro;
+gainsboro; fill-opacity: 50%;}.akakikaliti {stroke:rgb(0, 0, 0);stroke-width: 1.5px;stroke-dasharray: 1; fill:gainsboro;
+fill-opacity: 10%;}
+.yeka{stroke:rgb(0, 0, 0);stroke-width: 1px;stroke-dasharray: 1;fill:gainsboro;
+fill-opacity: 10%;}
+.bole{stroke:rgb(0, 0, 0);stroke-width: 1px;stroke-dasharray: 1; fill:gainsboro; fillopacity: 10%;}
+.kolfe-keraniyo{stroke: rgb(0, 0, 0);stroke-width: 1.5px;stroke-dasharray: 1; fill:
+gainsboro; fill-opacity: 50%;}
+
+.arada{stroke:rgb(0, 0, 0);stroke-width: 1px;stroke-dasharray: 1; fill:gainsboro; fillopacity: 50%;}
+.gulele{stroke:rgba(0, 0, 0, 0.164);stroke-width: 1px; stroke-dasharray: 1; fill:gainsboro;
+fill-opacity: 50%;}
+.addis-ketema{stroke:rgb(0, 0, 0);stroke-width: 1px; stroke-dasharray: 1; fill:gainsboro;
+    fill-opacity: 50%;}
+.akaki-kaliti{stroke:rgb(0, 0, 0);stroke-width: 1px; stroke-dasharray: 1.5; fill:gainsboro;
+        fill-opacity: 50%;}
+   
+.removed{
+display: none;
+}
+button{
+position: relative;
+color: white;
+font-size: 20px;
+background:rgb(187, 187, 187);
+border:none;
+outline: none;
+left:-210%;
+top: -400px;
+width: 260px;
+text-align: left;
+
+}
+
+#sidebar{
+text-align: left;
+float:right;
+width:30%;
+background:none;
+
+padding:0px;
+box-sizing:border-box;
+}
+.base{
+    background-color: rgb(7, 7, 7);
+    width:100%;
+    position:absolute;
+    top: 1100px;
+    font-size: 25px;
+    color: #FFF

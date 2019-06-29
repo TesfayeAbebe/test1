@@ -1,0 +1,50 @@
+
+body{
+    background-color: rgb(192, 192, 192);
+    background-position: absolute;
+    width:100%;
+    top: 100%;
+}
+
+header{
+    display: flex;
+    background: url(.jpeg) no-repeat;
+    background-size: cover;
+    min-height: 610px;
+    width: 100%;
+}
+
+.sample{
+    font-family: 'poppins', sans-serif;
+    font-size: 20; 
+    background-color: black;
+    color: #FFF;
+}
+.responsive{
+    padding: 0 6px;
+    float: left;
+    width: 31%;
+    color: #FFF;
+}
+        @media only screen and (max-width:700px){
+    .responsive{
+        width: 50%;
+        margin: 6px 0;
+       }
+    }
+        @media only screen and (max-width:700px){
+    .responsive{
+        width: 100%;
+               }
+       }
+
+       @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+       .base{
+        background-color: rgb(7, 7, 7);
+        width:100%;
+        position:absolute;
+        top: 120%;
+        font-size: 25px;
+        color: #FFF
+       }

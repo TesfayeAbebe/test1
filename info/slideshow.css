@@ -1,0 +1,99 @@
+
+body {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  background:url(aa.jpg);
+  padding-top: 5px;
+}
+
+.logo-containerer{
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    position: absolute;
+    top: 500px;
+    left: 5px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid rgb(255,255, 255,0.8)
+
+}
+.logoo{
+    position: absolute;
+    top: 5px;
+    left: 100px;
+}
+
+.logo{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+        letter-spacing: 1px;
+    float: left;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0 6em;
+}
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+.slide:nth-child(1) {
+  background:url(slide/1.JPG);
+}
+
+.slide:nth-child(2) {
+  background: url(slide/2.jpg);
+}
+
+.slide:nth-child(3) {
+  background: url(slide/3.jpg);
+}
+
+.slide:nth-child(4) {
+  background: url(slide/4.jpg);
+}
+
+.slide-number {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 10em;
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
+.base{
+
+    background-color: rgb(7, 7, 7);
+    width:90%;
+    position:absolute;
+    top: 95%;
+    font-size: 20px;
+    color: #FFF
+}
+.project{
+  color: aliceblue;
+}
